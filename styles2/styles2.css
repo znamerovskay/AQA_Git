@@ -1,0 +1,18 @@
+@import url('https://fonts.googleapis.com/css?family=Arimo');
+.top-menu {
+    background: rgba(255,255,255,.5);
+    box-shadow: 3px 0 7px rgba(0,0,0,.3);
+    padding: 20px;
+}
+.top-menu:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+.navbar-logo {display: inline-block;}
+.menu-main {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    float: right;
+}
